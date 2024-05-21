@@ -1,8 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tea-Ring
 
-## Getting Started
+Tea-Ring is a Next.js project featuring a liquid button effect and various utilities. This project aids in the development and testing of the Tea project, providing a solid foundation and useful features for web application development.
 
-First, run the development server:
+## Description
+
+Tea-Ring leverages Next.js along with a collection of essential packages and dependencies to facilitate the creation and testing of web applications. This project is designed to help developers build visually appealing and responsive user interfaces efficiently.
+
+## Features
+
+- **Next.js**: A powerful React framework for building server-side rendered applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Liquid Button Effect**: A unique and visually appealing button animation.
+- **Utilities**: Various utilities such as form handling, animations, and data fetching.
+
+## Installation
+
+To install the Tea-Ring project, use the following command:
+
+```bash
+npm install tea-ring
+```
+
+## Usage
 
 ```bash
 npm run dev
@@ -14,23 +33,64 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Repository
+- [GitHub]( https://github.com/naufalprtm/tea-ring) - learn about Next.js features and API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Bugs and Issues
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you encounter any issues, please report them here:
+- [issues]( https://github.com/naufalprtm/tea-ring/issues) - learn about Next.js features and API.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions to improve Tea-Ring. Feel free to submit pull requests and open issues to make this project better for everyone.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Special thanks to the developers and contributors who have made this project possible.
+Thank you for using Tea-Ring! We hope this project helps you in your development journey.
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Zixine - zixine.zx@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This `README.md` provides a comprehensive overview of the project, including its description, features, installation instructions, usage, dependencies, author information, license, repository details, and contribution guidelines.
+
+## Dev Dependencies
+```bash
+@types/node: ^20.0.0
+@types/react: ^18.0.27
+@types/react-dom: ^18.0.10
+@typescript-eslint/eslint-plugin: ^5.62.0
+@typescript-eslint/parser: ^5.62.0
+autoprefixer: ^10.4.12
+eslint: ^8.36.0
+eslint-config-next: 14.1.4
+eslint-config-prettier: ^8.6.0
+eslint-plugin-prettier: ^4.2.1
+eslint-plugin-react-hooks: ^4.6.0
+eslint-plugin-testing-library: ^5.10.1
+jest: ^29.2.1
+jest-environment-jsdom: ^29.2.1
+postcss: ^8.4.18
+prettier: ^2.8.3
+tailwindcss: ^3.3.0
+typescript: ^5.1.0
+```
+## Dependencies
+```bash
+next: 14.1.4
+react: ^18.2.0
+react-dom: ^18.2.0
+tea-ring: ^1.4.0
+axios: ^1.2.0
+clsx: ^1.2.1
+date-fns: ^2.30.0
+formik: ^2.2.9
+framer-motion: ^7.0.0
+lodash: ^4.17.21
+next-auth: ^4.21.1
+react-query: ^4.24.2
+swr: ^2.1.1
+yup: ^1.1.1
+```
